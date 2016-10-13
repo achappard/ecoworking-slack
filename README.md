@@ -1,1 +1,1 @@
-# ecoworking-slack
+# Ecoworking Slack Slash command
