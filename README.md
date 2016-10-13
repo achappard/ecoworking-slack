@@ -1,1 +1,1 @@
-# ecowrking-slack
+# ecoworking-slack
