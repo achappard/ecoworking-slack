@@ -4,10 +4,21 @@ if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
 class Public_slack extends MY_Controller {
+    
+    
+   
+    public function __construct()
+    {
+        parent::__construct();
+        
+        // Load Slack config file
+        $this->load->config('slack');
 
+    }
+    
     /**
     * Slash command for ecowo
-    * On mange où ce midi ?
+    * Where do we eat today ?
     */
     public function onmangeou() {
 
