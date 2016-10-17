@@ -14,7 +14,7 @@ class Mdl_slack extends CI_Model {
         'Tralala',
         'Komé',
         'Comptoir du poulet',
-        'La martinière',
+        'La Martinière',
         'Crok\'n Roll',
         'Konditori',
         'Yomogi',
