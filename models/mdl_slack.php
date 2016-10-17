@@ -32,8 +32,9 @@ class Mdl_slack extends CI_Model {
         'Croc\'o Green',
         'La Marsa',
         'Frite Alors',
-        'La bicycletrie',
-
+        'La bicycletterie',
+        'Chez Jules',
+        'L\'indien à côté du Sun',
     );
 
     public static $end_message = array(
@@ -59,7 +60,7 @@ class Mdl_slack extends CI_Model {
         'y\'en a qui ont essayé...',
         'et c\'est comme ça',
         ', trop cool !!',
-
+        ', ou *Doma*, sinon'
     );
 
     function __construct() {
