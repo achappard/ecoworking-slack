@@ -37,30 +37,30 @@ class Mdl_slack extends CI_Model {
         'L\'indien à côté du Sun',
     );
 
-    public static $end_message = array(
-        'bien sûr !',
-        'car ça fait longtemps non ?',
-        'comme d\'hab non ?',
-        'pourquoi pas ?',
-        'me donne envie aujourd\'hui !',
-        'me fait saliver !',
-        ', oh oui !',
-        'encore une fois ?',
-        ', je suis sûr que ça rend pas malade',
-        'est validé par Écowo évidemment !',
-        'serait adapté à cette journée pourrie',
-        'serait adapté à cette journée géniale',
-        ', ça change du MacDo',
-        ', c\'est pas trop loin',
-        ', ça nous fera sortir',
-        'ou alors fallait ramener votre bouffe',
-        'si vous êtes pas contents, c\'est pareil',
-        ', hé ouais, tant pis pour vous',
-        'est pas mal aussi...',
-        'y\'en a qui ont essayé...',
-        'et c\'est comme ça',
-        ', trop cool !!',
-        ', ou *Doma*, sinon'
+    public static $message = array(
+        '%s bien sûr !',
+        '%s, car ça fait longtemps non ?',
+        '%s comme d\'hab non ?',
+        'Pourquoi pas %s ?',
+        '%s me donne envie aujourd\'hui !',
+        '%s me fait saliver !',
+        '%s, oh oui !',
+        '%s encore une fois ?',
+        '%s, je suis sûr que ça rend pas malade.',
+        '%s est validé par Écowo évidemment !',
+        '%s serait adapté à cette journée pourrie.',
+        '%s serait adapté à cette journée géniale.',
+        '%s, ça change du MacDo.',
+        '%s, c\'est pas trop loin.',
+        '%s, ça nous fera sortir.',
+        '%s, ou alors fallait ramener votre bouffe.',
+        '%s. Et si vous êtes pas contents, c\'est pareil.',
+        '%s. Hé ouais, tant pis pour vous.',
+        '%s est pas mal aussi...',
+        'Y\'en a qui ont essayé %s...',
+        '%s, et c\'est comme ça.',
+        '%s, trop cool !!',
+        '%s. Ou *Doma*, sinon.',
     );
 
     function __construct() {
@@ -76,10 +76,10 @@ class Mdl_slack extends CI_Model {
     }
 
     /**
-    *   Get random end message
+    *   Get random message format
     */
-    public function getRandomEndMessage(){
-        $end_message_key = array_rand(self::$end_message, 1);
-        return self::$end_message[$end_message_key];
+    public function getRandomMessage(){
+        $message_key = array_rand(self::$message, 1);
+        return self::$message[$message_key];
     }
 }

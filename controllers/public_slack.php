@@ -27,12 +27,12 @@ class Public_slack extends MY_Controller {
 
             $this->load->model('slack/mdl_slack');
             $restaurant =  $this->mdl_slack->getRandomRestaurant();
-            $endMessage =  $this->mdl_slack->getRandomEndMessage();
+            $message =  $this->mdl_slack->getRandomMessage();
 
             header('Content-Type: application/json');
             $json = array(
                 "response_type" => "in_channel",
-                "text"          => "*" . $restaurant . "* " . $endMessage
+                "text"          => sprintf($message, "*" . $restaurant . "*")
             );
             echo json_encode($json);
         }else{
