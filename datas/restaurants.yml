@@ -40,7 +40,7 @@
   address:  "24 Rue de la Martinière, 69001 Lyon"
   url:      "http://www.petitpaume.com/etablissement/la-boulangerie-de-la-martiniere.htm"
 
-- name:     "Crok\'n Roll"
+- name:     "Crok'n Roll"
   address:  "1 Rue Désirée, 69001 Lyon"
   url:      "http://www.thecrocknroll.fr"
 
@@ -84,12 +84,12 @@
   address:  "7 Rue Neuve, 69001 Lyon"
   url:      "http://cocoo.fr/"
 
-- name:     "Croc\'o Green"
+- name:     "Croc'o Green"
   address:  "13 Rue Terraille, 69001 Lyon"
   url:      "http://www.crocogreen.fr/"
 
 - name:     "La Marsa"
-  address:  "16 Rue d\'Algérie, 69001 Lyon"
+  address:  "16 Rue d'Algérie, 69001 Lyon"
   url:      "http://www.restaurant-lamarsa.fr/"
 
 - name:     "Frite Alors!"
@@ -104,6 +104,6 @@
   address:  "4, Rue Joseph Serlin, 69001 Lyon"
   url:      "http://boulangeriechezjules.fr/"
 
-- name:     "Tandoori, l\'indien à côté du Sun",
+- name:     "Tandoori, l'indien à côté du Sun",
   address:  "8 Rue Sainte-Marie-des-Terreaux, 69001 Lyon"
   url:      ""
