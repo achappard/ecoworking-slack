@@ -107,3 +107,7 @@
 - name:     "Tandoori, l'indien à côté du Sun",
   address:  "8 Rue Sainte-Marie-des-Terreaux, 69001 Lyon"
   url:      ""
+
+- name:     "Bikeat",
+  address:  ""
+  url:      "https://www.bikeat.fr/"
