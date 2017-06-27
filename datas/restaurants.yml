@@ -119,7 +119,3 @@
 - name:     "Nooi",
   address:  "12 rue du Garet, 69001 LYON"
   url:      "http://www.nooi.fr/"
-
-- name:     "Bikeat",
-  address:  ""
-  url:      "https://www.bikeat.fr/"
