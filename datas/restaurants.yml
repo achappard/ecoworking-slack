@@ -52,10 +52,6 @@
   address:  "1 Rue Hippolyte Flandrin, 69001 Lyon"
   url:      "http://www.yomogilyon.com/"
 
-- name:     "Bangkok Royal"
-  address:  "40 Rue Sergent Blandan, 69001 Lyon"
-  url:      "http://www.bangkok-royal.fr/"
-
 - name:     "Gourmix"
   address:  "22 Rue de la Platière, 69001 Lyon"
   url:      "http://www.gourmix.fr/"
@@ -80,6 +76,10 @@
   address:  "9 Rue Sainte-Catherine, 69001 Lyon"
   url:      "http://edolyon.fr/"
 
+- name:     "Boston Café"
+  address:  "8, place des Terreaux, 69001 Lyon"
+  url:      "https://www.petitpaume.com/etablissement/boston-cafe.htm"
+
 - name:     "Cocoo Thai"
   address:  "7 Rue Neuve, 69001 Lyon"
   url:      "http://cocoo.fr/"
@@ -92,10 +92,6 @@
   address:  "16 Rue d'Algérie, 69001 Lyon"
   url:      "http://www.restaurant-lamarsa.fr/"
 
-- name:     "Frite Alors!"
-  address:  "20 Rue Terme, 69001 Lyon"
-  url:      "http://fritealors.fr/"
-
 - name:     "La bicycletterie"
   address:  "16 Rue Romarin, 69001 Lyon"
   url:      "http://www.la-bicycletterie.com"
@@ -104,9 +100,25 @@
   address:  "4, Rue Joseph Serlin, 69001 Lyon"
   url:      "http://boulangeriechezjules.fr/"
 
+- name:     "Burger & Wells"
+  address:  "18 Rue du Bât-d'Argent, 69001 Lyon"
+  url:      "http://www.burgerandwells.com/"
+
 - name:     "Tandoori, l'indien à côté du Sun",
   address:  "8 Rue Sainte-Marie-des-Terreaux, 69001 Lyon"
   url:      ""
+
+- name:     "Sur le Bout de la Langue",
+  address:  "3 place Sathonay, 69001 Lyon"
+  url:      "https://www.yelp.fr/biz/sur-le-bout-de-la-langue-lyon"
+
+- name:     "Chez Jules",
+  address:  "4, Rue Joseph Serlin – 69001 Lyon"
+  url:      "http://boulangeriechezjules.fr/"
+
+- name:     "Nooi",
+  address:  "12 rue du Garet, 69001 LYON"
+  url:      "http://www.nooi.fr/"
 
 - name:     "Bikeat",
   address:  ""
